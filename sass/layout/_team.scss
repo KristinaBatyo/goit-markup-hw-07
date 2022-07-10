@@ -1,0 +1,96 @@
+.our-photos {
+    display: flex;
+    padding-top: 50px;
+}
+.photo-to-occupy {
+    display: flex;
+}
+.occopy-photo:not(:last-child){
+    margin-right: 30px;
+}
+
+.name {
+    color: var(--header-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+.profession {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.section.team {
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: var(--padding-backdown);
+}
+.text-link {
+    text-decoration: none;
+    margin: 0px;
+    max-width: 270px;
+}
+.about-us {
+    background-color: var(--background-white-color);
+    padding-bottom: 30px;
+    max-width: 270px;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    &:not(:last-child){
+        margin-right: 30px;
+    }
+}
+
+.we {
+    text-decoration: none;
+}
+
+.employee-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+.employee-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    &:first-child{
+        margin-left: 0px;
+    }
+}
+
+.employee-soc-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--background-white-color);
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+    transition: color 250ms linear, background-color 250ms linear,
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, 
+    &:focus{
+        background-color: var(--accent-color);
+        color: var(--background-white-color) ;
+    
+    }
+}
+
+.employee-soc-icon {
+    fill: currentColor ; 
+    
+}
+
+

@@ -1,0 +1,71 @@
+.subject-desk {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--header-color);
+}
+.section-content {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-top: 4px;
+}
+.list-decoration {
+    text-decoration: none;
+    margin: 0px;
+}
+
+.subject {
+    padding-top: var(--padding-backdown);
+    padding-bottom: var(--padding-backdown);
+}
+
+.decoration {
+    margin-top: 50px;
+}
+
+.project-name {
+    background-color: var(--background-white-color);
+    width: 370px;
+    border: 1px solid #EEEEEE;
+    transition: border 250ms linear, box-shadow 250ms linear, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+}
+.list.decoration {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-title {
+    padding: 20px 24px;
+}
+
+.project-name:hover 
+.project-text {
+    transform: translateY(0); 
+    
+}
+.project-wrap{
+position: relative;
+overflow: hidden;  
+}
+
+.project-text {
+    position: absolute;
+    top: 0px;
+
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--background-white-color);
+    background-color: rgba(33, 150, 243, 0.9);
+    padding: 63px 24px;
+    transform: translateY(100%);
+    transition: transform 300ms linear;
+}

@@ -1,0 +1,20 @@
+.section .section-title {
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+.title-list:not(:last-child) {
+    margin-right: 30px;
+    }
