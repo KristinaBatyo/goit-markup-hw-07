@@ -1,15 +1,5 @@
-.our-photos {
-    display: flex;
-    padding-top: 50px;
-}
-.photo-to-occupy {
-    display: flex;
-}
-.occopy-photo:not(:last-child){
-    margin-right: 30px;
-}
 
-.name {
+.team__name {
     color: var(--header-color);
     font-weight: 500;
     font-size: 16px;
@@ -34,12 +24,18 @@
     padding-top: 94px;
     padding-bottom: var(--padding-backdown);
 }
-.text-link {
+.team__link {
     text-decoration: none;
     margin: 0px;
     max-width: 270px;
 }
-.about-us {
+
+.team__retreat {
+    display: flex;
+    padding-top: 50px;
+}
+
+.team__list {
     background-color: var(--background-white-color);
     padding-bottom: 30px;
     max-width: 270px;
@@ -51,16 +47,14 @@
     }
 }
 
-.we {
-    text-decoration: none;
-}
 
-.employee-soc-list {
+
+.employee {
     display: flex;
     justify-content: center;
 }
 
-.employee-soc-item {
+.employee__list {
     width: 44px;
     height: 44px;
     margin-left: 10px;
@@ -69,7 +63,7 @@
     }
 }
 
-.employee-soc-link {
+.employee__link {
     display: flex;
     width: 100%;
     height: 100%;
@@ -88,7 +82,7 @@
     }
 }
 
-.employee-soc-icon {
+.employee__icon {
     fill: currentColor ; 
     
 }

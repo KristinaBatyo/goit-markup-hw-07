@@ -19,7 +19,7 @@
     border-radius: 4px;
 }
 
-.modal-close-btn {
+.backdrop__btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -34,6 +34,10 @@
     &:hover {
         color: var(--accent-color);
     }
+}
+.modal__button {
+    display: block;
+    margin: 0 auto;
 }
 
 .subject-button {

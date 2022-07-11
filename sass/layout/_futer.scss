@@ -1,4 +1,4 @@
-.logo-light {
+.futer__part {
     color: var(--background-white-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -13,7 +13,7 @@ address {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.contacts {
+.contacts__futer {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     margin-bottom: 9px;
@@ -24,19 +24,32 @@ address {
 }
 }
 
+.futer__logo {
+    
+        color: var(--accent-color); 
+        
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        
+        
+}
 
 
-.contacts-futer {
+.contacts__link {
     margin-top: 9px;
 }
 
-.futer-icon {
+.futer {
     background-color: var(--backgroubd-color);
     padding-top: 60px;
     padding-bottom: 60px;
 
 }
-.text-futer {
+.futer__text {
     color: var(--background-white-color);
     font-style: normal;
     font-weight: 700;
@@ -46,19 +59,19 @@ address {
     text-transform: uppercase;
 }
 
-.adress-futer {
+.futer__adress {
     margin-top: 20px;
 }
-.futer-container {
+.futer__container {
     display: flex;
     align-items: baseline;
 }
 
-.futer-soc-list {
+.futer__list {
     display: flex;
     margin-top: 20px;
 }
-.futer-soc-link {
+.futer__item {
     display: flex;
     width: 100%;
     height: 100%;
@@ -78,14 +91,14 @@ address {
     }
 }
 
-.futer-soc-icon {
+.futer__icon {
     fill: currentColor;
 }
 
-.futer-list {
+.futer__soc {
     margin-left: 70px;
 }
-.futer-soc-item {
+.futer__link {
     width: 44px;
     height: 44px;
     margin-left: 10px;
@@ -95,7 +108,7 @@ address {
     
 }
 
-.form-title {
+.form__title {
     font-weight: 700;
 font-size: 14px;
 line-height: calc(16/14);
@@ -105,15 +118,15 @@ text-transform: uppercase;
 margin-bottom: 20px;
 }
 
-.online-form {
+.form__online {
     display: flex;
 }
 
-.futer-form {
+.form__retreat {
     margin-left: 93px;
 }
 
-.futer-form-button{
+.form__button{
     background: var(--accent-color);
     color: var(--background-white-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -135,14 +148,14 @@ margin-bottom: 20px;
 
 }
 
-.form-soc-icon {
+.form__icon {
     position: absolute;
     left: 148px;
     top: 13px;
     bottom: 13px;
 }
 
-.futer-input {
+.form__input {
     padding: 16px 15px;
     background-color: transparent;
     color: var(--background-white-color);

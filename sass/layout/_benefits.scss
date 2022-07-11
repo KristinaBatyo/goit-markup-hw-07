@@ -1,4 +1,4 @@
-.section.benefits {
+.benefits__section {
     padding-top: var(--padding-backdown);
 }
 
@@ -8,38 +8,19 @@
     padding-bottom: var(--padding-backdown);
 }
 
-.photo-to-occupy {
-    margin-top: 50px;
-}
-.work-photo {
-    position: relative;
-}
 
-.occopy-text {
-    position: absolute;
-    
-    top: 224px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--background-white-color) ;
-    background-color: rgba(47, 48, 58, 0.8);;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    width: 100%;
-    min-height: 70px;
-    padding-top: 24px;
-}
 
-.feature-list .title {
+.feature{
+    display: flex;
+.title {
     color: var(--header-color);
 }
-
-
-
-.feature-list{
-    display: flex;
 }
+
+
+.feature__list:not(:last-child) {
+    margin-right: 30px;
+    }
 
 .visually-hidden {
     position: absolute;
@@ -55,7 +36,7 @@
 }
 
 
-.benefits-soc-item {
+.feature__item {
     width: 270px;
     height: 120px;
     display: flex;
