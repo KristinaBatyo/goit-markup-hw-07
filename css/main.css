@@ -143,6 +143,12 @@ body {
   width: 270px;
 }
 
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -247,7 +253,7 @@ body {
   margin-right: 7px;
 }
 
-.modal__checked:checked + .modal__check-text::before {
+.modal__checked:checked + .modal__aside::before {
   background-color: var(--accent-color);
   background-image: url(../images/Vector5.svg);
   background-repeat: no-repeat;
@@ -278,7 +284,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.backdrop.is-hidden .modal {
+.backdrop.is-hidden .backdrop__modal {
   transform: translate(-50%, -50%) scale(0);
 }
 

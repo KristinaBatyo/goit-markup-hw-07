@@ -1,3 +1,9 @@
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -103,7 +109,7 @@ color: var(--primary-text-color);
         }
         }
 
-    .modal__checked:checked + .modal__check-text::before{
+    .modal__checked:checked + .modal__aside::before{
         background-color: var(--accent-color);
         background-image: url(../images/Vector5.svg);
         background-repeat: no-repeat;
@@ -138,7 +144,7 @@ color: var(--primary-text-color);
 
     
 
-.backdrop.is-hidden .modal {
+.backdrop.is-hidden .backdrop__modal {
     transform: translate(-50%, -50%) scale(0);
 }
 
